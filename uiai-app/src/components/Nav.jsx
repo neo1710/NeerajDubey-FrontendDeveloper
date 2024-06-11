@@ -16,7 +16,7 @@ return <DIV>
 <div className="nav2">
   <div className="navBut"><button>Whitedpaper</button></div>
 
-<div className="navBut"><button >Get Started</button></div>
+<div className="navBut but2"><button >Get Started</button></div>
 </div>
 
 </DIV>
@@ -26,14 +26,15 @@ return <DIV>
 
 const DIV=styled.div`
 display:flex;
+position:absolute;
 *font-family: "Outfit", sans-serif;
 width:100%;
 justify-content:space-between;
-
+backdrop-filter: blur(10px);
 align-items:center;
 .nav1{
 display:flex;
-width:30%;
+width:40%;
 justify-content:space-around;
 align-items:baseline;
 
@@ -64,7 +65,9 @@ background:transparent;
 filter:blur;
 border:black;
 }
-
+.but2{
+background: linear-gradient(to right,rgb(126, 43, 126),rgb(238, 96, 184));
+}
 .logo {
  font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
