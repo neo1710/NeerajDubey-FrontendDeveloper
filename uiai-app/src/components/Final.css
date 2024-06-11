@@ -1,0 +1,111 @@
+.final{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.hor{
+    width: 100%;
+}
+
+.hor1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hor2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.hor>div>div{
+    padding: 15px;
+    color: white;
+    font-size: large;
+    background: linear-gradient(92.5deg, rgba(88, 61, 128, 0.7) 0%, rgba(255, 255, 255, 0.09) 100%);
+
+}
+
+.next{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 30px;
+ 
+}
+.outfit{
+    background: url("../images/div.framer-ym3caf.png");
+    height: 400px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+}
+.outfit:hover{
+width: 35%;
+height: 420px;
+}
+
+h3{
+    text-align: center;
+    color: rgb(226, 204, 204);
+}
+
+.ava{
+    height: 400px;
+    background: url("../images/div.framer-ym3caf2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+}
+
+.ava:hover{
+    width: 55%;
+    height: 420px;
+    }
+
+
+    .next2{
+        width: 90%;
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        margin-top: 10px;
+     
+    }
+    .script{
+        background: url("../images/div.framer-ym3caf.png");
+        height: 400px;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 50%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 15px;
+    }
+    .script:hover{
+    width: 55%;
+    height: 420px;
+    }
+    
+  
+    
+    .voice{
+        height: 400px;
+        background: url("../images/div.framer-ym3caf2.png");
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 30%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 15px;
+    }
+    
+    .voice:hover{
+        width: 35%;
+        height: 420px;
+        }
